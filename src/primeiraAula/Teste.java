@@ -10,17 +10,14 @@ public class Teste {
 		int num=0, num2=5, total=0;
 		Scanner ler = new Scanner(System.in);
 		
-		//variaveis do ano
+										//=========VER O ANO EM QUE A PESSOA NASCEU=========
 		/*
 		int idade;
 		int ano_atual;
 		int ano_nascimento;
 		Scanner ler = new Scanner(System.in);
-		*/
-	
-		//Comandos básicos de entrada e saida de dados:
-		
-		/*System.out.println("Digite sua idade: "); 
+
+		System.out.println("Digite sua idade: "); 
         idade = ler.nextInt(); //variavel que vai guardar a idade
         
         //Criando um objeto do tipo Calendar para guardar o ano
@@ -35,7 +32,7 @@ public class Teste {
         //System.out.printf("Você nasceu no ano de " + (calendario.get(Calendar.YEAR) - ler.nextInt()) + "\n");
         //mas, é sempre bom deixar o código organizado e de fácil entendimento para futuras modificações
         
-        //=========AULA DE LAÇOS E IF=========
+        								//=========AULA DE LAÇOS E IF=========
     	
         /* Operadores Lógicos
 		 *Maior que: >
@@ -55,7 +52,7 @@ public class Teste {
 				
 		
         
-        
+        do {
         System.out.println("Digite um número para multiplicar por 5: "); 
         num = ler.nextInt();
         total = num * num2;
@@ -66,7 +63,9 @@ public class Teste {
         	System.out.println("O valor " + total + " é igual a 20");
         }else {
         	System.out.println("O valor " + total + " é menor que 20");
+        	break;
         }
+      }while(true);
 	}
 
 }
