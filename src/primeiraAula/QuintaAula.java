@@ -13,6 +13,6 @@ public class QuintaAula {
 		
 		System.out.println(50*0.5);
 		
-		System.out.println(14/1.75);
+		System.out.println("O resultado é " +  (14/1.75));
 	}
 }
