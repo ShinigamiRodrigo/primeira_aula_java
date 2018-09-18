@@ -12,6 +12,7 @@ public class Promocao_matematica {
 		float pi=3.01f;
 		x=x*(long)pi;
 		x=(long) (x*pi);
+		System.out.println(x);
+		System.out.println(d);
 	}
-
 }

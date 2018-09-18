@@ -3,7 +3,7 @@ package primeiraAula;
 public class Fluxo_programa2 {
 
 	public static void main(String[] args) {
-		int idade=61;
+		int idade=20;
 		if(idade <= 12) {
 			System.out.println("Criança");
 		}
